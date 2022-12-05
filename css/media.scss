@@ -1,0 +1,738 @@
+
+
+
+@media (max-width: 1024px) {
+  #header{
+    position: sticky;
+    .header{
+      &--nav{
+        &__right{
+          display: none;
+        }
+      }
+    }
+  }
+  #hero{
+    .hero{
+      &--liner{
+        width: 520px;
+        left: -21%;
+        bottom: -31%;
+      }
+    }
+  }
+  #about{
+    .about{
+      &--nav{
+        p{
+          width: 869px;
+        }
+      }
+      &--blocks{
+        width: 763px;
+      }
+     &--tittles{
+       &__tit{
+         left: -28.9%;
+         top: 66%;
+         width: 491px;
+       }
+       &__sub{
+         top: 15%;
+         right: -5%;
+       }
+       &__left{
+         top: 14%;
+         right: 99.9%;
+         width: 16px;
+       }
+       &__right{
+         left: 71%;
+         top: 64%;
+         width: 471px;
+       }
+       &__two{
+         top: 14%;
+         right: 1%;
+       }
+     }
+    }
+  }
+  #cards{
+
+    .cards{
+      &--card{
+        &__one{
+          height: 426px;
+
+        }
+      }
+      &--two{
+        &__img{
+          width: 483px;
+        }
+      }
+      &--five{
+        &__img{
+          width: 543px;
+        }
+      }
+      &--three{
+        &__img{
+          width: 541px;
+          height: 400px;
+        }
+      }
+
+    }
+  }
+  #general{
+    .general{
+      &--blocks{
+        &__img{
+          height: 56px;
+        }
+      }
+
+    }
+  }
+  #partner{
+    .partner{
+      &--img{
+        width: 393px;
+        height: 240px;
+      }
+      margin-left: 5%;
+    }
+  }
+
+}
+
+@media (max-width: 992px) {
+  #client{
+    .client{
+      &--nav{
+        &__text{
+          p{
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+  #cards{
+    .cards{
+       &--card{
+         &__one{
+           height: 413px;
+         }
+       }
+      &--three{
+        &__img{
+          width: 508px;
+        }
+      }
+      &--five{
+        &__img{
+          width: 509px;
+        }
+      }
+    }
+  }
+  #partner{
+    .partner{
+      &--img{
+        width: 363px;
+      }
+    }
+  }
+  #general{
+    .general{
+      &--blocks{
+        &__img{
+          height: 53px;
+        }
+      }
+
+    }
+  }
+  #footer{
+    .footer--info{
+      &__text{
+        &--end{
+          margin-left: 44%;
+        }
+      }
+
+    }
+  }
+  #about{
+    .about{
+      &--nav{
+        p{
+          width: 869px;
+        }
+      }
+      &--blocks{
+        width: 763px;
+      }
+      &--tittles{
+        &__tit{
+          left: -28.9%;
+          top: 66%;
+          width: 491px;
+        }
+        &__sub{
+          top: 15%;
+          right: -5%;
+        }
+        &__left{
+          top: 14%;
+          right: 98.9%;
+          width: 16px;
+        }
+        &__right{
+          left: 73%;
+          top: 64%;
+          width: 471px;
+        }
+        &__two{
+          top: 14%;
+          right: -2%;
+        }
+      }
+    }
+  }
+  #hero{
+    .hero{
+      &--nav{
+        padding-top: 11%;
+        padding-left: 10%;
+      }
+      &--liner{
+        width: 433px;
+        left: -17%;
+        bottom: -13%;
+      }
+    }
+  }
+
+
+
+
+}
+
+@media (max-width: 768px) {
+  #header{
+    .header{
+      a{
+        display: none;
+      }
+
+    }
+  }
+  #hero{
+    min-height: 61vh;
+    .hero{
+    &--list{
+      display: none;
+    }
+      &--liner{
+        width: 192px;
+        left: -7%;
+        bottom: 33%;
+      }
+      &--tit{
+        left: 7%;
+        bottom: 70%;
+        width: 316px;
+      }
+      &--left{
+        top: 27%;
+        left: 6%;
+      }
+      &--cloud{
+        left: 28%;
+        width: 260px;
+      }
+      &--icon{
+        margin: 6% 0;
+      }
+    }
+  }
+  #about{
+    .about{
+      &--nav  {
+        padding-top: 1%;
+        p{
+          width: 657px;
+        }
+       &__btn{
+         align-items: center;
+         justify-content: center;
+         padding-bottom: 20px;
+       }
+      }
+      &--img{
+        left: -22%;
+        top: -99%;
+      }
+      &--blocks{
+        img{
+          margin-left: 17%;
+          width: 67px;
+        }
+        p{
+          font-size: 12px;
+
+        }
+
+        margin-left: 15%;
+        width: 374px;
+        height: 287px;
+      }
+      &--tittles{
+        &__tit{
+          display: none;
+        }
+        &__sub{
+          display: none;
+        }
+        &__right{
+          display: none;
+        }
+        &__left{
+          display: none;
+        }
+        &__two{
+          display: none;
+        }
+
+
+
+
+      }
+    }
+  }
+  #client{
+    .client{
+      flex-direction: column;
+      h1{
+        line-height: 34px;
+      }
+      &--nav{
+
+      }
+    }
+  }
+  #cards{
+    .cards{
+      &--card{
+        &__one{
+          height: 320px;
+        }
+      }
+      &--two{
+        &__img{
+          width: 768px;
+          height: 444px;
+        }
+      }
+      &--three{
+        &__img{
+          width: 768px;
+          height: 438px;
+        }
+      }
+      &--five{
+        &__img{
+          width: 768px;
+        }
+      }
+      &--four{
+        &__img{
+          width: 768px;
+          height: 409px;
+        }
+      }
+    }
+  }
+  #general{
+    .general{
+      margin: 10% 20%;
+      &--blocks{
+        &__block{
+          width: 351px;
+          height: 344px;
+        }
+      }
+    }
+  }
+  #partner{
+    .partner{
+      flex-direction: column;
+       &--tit{
+      display: none;
+    }
+        &--img{
+        height: 272px;
+        width: 539px;
+      }
+    }
+  }
+  #footer{
+
+
+    .footer{
+      width: 43%;
+      margin-left: 26%;
+      &--nav{
+        p{
+          text-align: center;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 576px) {
+  #cards{
+    .cards{
+      &--card{
+        &__one{
+          height: 239px;
+        }
+        &__text{
+          h1{
+            font-size: 14px;
+          }
+        }
+      }
+      &--two{
+        &__img{
+          width: 574px;
+          height: 444px;
+        }
+        &__text{
+          h1{
+            font-size: 17px;
+          }
+        }
+      }
+      &--three{
+        &__img{
+          width: 575px;
+          height: 438px;
+        }
+        &__text{
+          h1{
+            font-size: 16px;
+          }
+        }
+      }
+      &--five{
+        &__img{
+          width: 575px;
+        }
+      }
+      &--four{
+        &__img{
+          width: 575px;
+          height: 409px;
+        }
+      }
+    }
+  }
+  #about{
+    padding-bottom: 20px;
+    .about{
+      &--blocks{
+        margin-left: 3%;
+      }
+      &--nav{
+        p{
+          width: 513px;
+        }
+      }
+    }
+  }
+  #client{
+    .client{
+      &--nav{
+        &__text{
+          margin: 5px 7px;
+          p{
+            font-size: 10px;
+          }
+        }
+
+      }
+    }
+  }
+  #hero{
+    .hero{
+      &--icon{
+        margin: 8% -10px;
+      }
+      &--liner{
+        width: 197px;
+        left: -10%;
+      }
+      &--tit{
+        left: 7%;
+        bottom: 76%;
+      }
+      &--left{
+        top: 21%;
+        left: 7.4%;
+      }
+    }
+  }
+  #partner{
+    .partner{
+      &--nav{
+        img{
+          width: 91px;
+          height: 54px;
+        }
+      }
+    }
+  }
+
+
+}
+
+@media (max-width: 451px) {
+
+  #hero{
+    min-height: 50vh;
+    .hero{
+      &--icon{
+        width: 45px;
+        height: 45px;
+        margin: -3% -19px;
+        a{
+          font-size: 28px;
+        }
+      }
+      &--nav{
+        padding-top: 19%;
+        padding-left: 16%;
+        h1{
+          font-size: 23px;
+        }
+        button{
+          font-size: 14px;
+          width: 169px;
+          height: 50px;
+        }
+      }
+      &--liner{
+        bottom: 36%;
+      }
+      &--left{
+        left: 12.4%;
+      }
+
+
+    }
+  }
+  #about{
+    .about{
+      &--nav{
+        p{
+          width: 99%;
+        }
+      }
+      &--blocks{
+        margin-left: -9%;
+      }
+
+    }
+  }
+  #client{
+    .client{
+      &--nav{
+        img{
+          margin-left: 12%;
+        }
+        &__text{
+          p{
+            font-size: 7px;
+          }
+        }
+      }
+
+    }
+  }
+  #cards{
+    .cards{
+      &--card{
+        &__one{
+          width: 100%;
+        }
+        &__text{
+          h1{
+            font-size: 11px;
+          }
+        }
+      }
+      &--two{
+        &__img{
+          width: 100%;
+        }
+      }
+      &--three{
+        &__img{
+          width: 100%;
+        }
+      }
+      &--four{
+        &__img{
+          width: 100%;
+        }
+      }
+      &--five{
+        &__img{
+          width: 100%;
+        }
+      }
+
+    }
+  }
+  #general{
+    .general{
+      margin: 10% -4%;
+
+    }
+  }
+  #partner{
+    .partner{
+      &--nav{
+        &__img{
+          flex-wrap: wrap;
+          width: 80%;
+        }
+      }
+      &--img{
+        height: 68%;
+        width: 80%;
+      }
+
+    }
+  }
+
+
+}
+
+@media (max-width: 400px) {
+  #client{
+    .client{
+      &--nav{
+        &__text{
+          margin: 5px 3px
+        }
+      }
+    }
+  }
+  #about{
+    .about{
+      &--blocks{
+        width: 354px;
+        p{
+          font-size: 11px;
+        }
+      }
+    }
+  }
+  #cards{
+    .cards{
+      &--card{
+        &__text{
+          h1{
+            font-size: 9px;
+          }
+        }
+
+      }
+
+    }
+  }
+  #footer{
+    .footer{
+      width: 68%;
+    }
+  }
+
+}
+@media (max-width: 320px) {
+  #general{
+    .general{
+      &--blocks{
+        &__img{
+          height: 43px;
+        }
+        &__block{
+          input{
+            width: 228px;
+          }
+        }
+
+      }
+    }
+  }
+  #about{
+    .about{
+      &--nav{
+        p{
+
+        }
+      }
+      &--blocks{
+        width: 284px;
+        p{
+          font-size: 9px;
+        }
+      }
+    }
+  }
+  #hero{
+    .hero{
+      &--cloud{
+        left: 6%;
+      }
+      &--tit{
+        width: 268px;
+      }
+      &--liner{
+        left: -20%;
+        bottom: 32%;
+      }
+    }
+  }
+  #client{
+    .client{
+      &--nav{
+        flex-wrap: wrap;
+      }
+    }
+  }
+  #cards{
+    .cards{
+      &--card{
+        &__text{
+          h1{
+            font-size: 7px;
+          }
+        }
+      }
+    }
+  }
+  #footer{
+    .footer{
+      margin-left: 14%;
+    }
+  }
+
+}
