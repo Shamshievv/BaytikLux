@@ -75,6 +75,140 @@
   }
 
 }
+@media (max-width: 1200px) {
+  #header{
+    position: sticky;
+    .header{
+      &--nav{
+        &__right{
+          display: none;
+        }
+      }
+    }
+  }
+  #hero{
+    .hero{
+      &--icon{
+        margin: 59% 0
+      }
+      &--liner{
+        width: 520px;
+        left: -21%;
+        bottom: -31%;
+      }
+    }
+  }
+  #about{
+    .about{
+      &--nav{
+        p{
+          width: 869px;
+        }
+      }
+      &--blocks{
+        width: 893px;
+      }
+      &--tittles{
+        &__tit{
+          left: -24.9%;
+          top: 66%;
+          width: 491px;
+        }
+        &__sub{
+          top: 15%;
+          right: -5%;
+        }
+        &__left{
+          top: 14%;
+          right: 99.9%;
+          width: 16px;
+        }
+        &__right{
+          left: 75%;
+          top: 64%;
+          width: 471px;
+        }
+        &__two{
+          top: 14%;
+          right: 1%;
+        }
+      }
+    }
+  }
+  #cards{
+
+    .cards{
+      width: 100%;
+      &--card{
+        &__one{
+          width: 721px;
+          height: 400px;
+        }
+        &__text{
+          h1{
+            font-size: 14px
+          }
+        }
+      }
+      &--two{
+        &__img{
+          width: 100%;
+          height: 399px;
+        }
+      }
+      &--five{
+        &__img{
+          width: 321px;
+          height: 400px;
+        }
+      }
+      &--four{
+        &__img{
+          width: 441px;
+          height: 400px
+        }
+      }
+      &--three{
+        &__img{
+          width: 438px;
+          height: 400px;
+        }
+      }
+
+    }
+  }
+  #general{
+    .general{
+      &--blocks{
+        &__img{
+          height: 56px;
+        }
+      }
+
+    }
+  }
+  #partner{
+    .partner{
+      &--img{
+        width: 393px;
+        height: 240px;
+      }
+      margin-left: 5%;
+    }
+  }
+  #footer{
+    .footer{
+      &--info{
+        &__text{
+          &--end{
+            margin-left: 52%;
+          }
+        }
+      }
+    }
+  }
+
+}
 @media (max-width: 1024px) {
   #header{
     position: sticky;
@@ -140,8 +274,8 @@
     .cards{
       &--card{
         &__one{
-          height: 426px;
-
+          width: 100%;
+          height: 450px;
         }
       }
       &--two{
@@ -158,6 +292,11 @@
         &__img{
           width: 541px;
           height: 400px;
+        }
+      }
+      &--four{
+        &__img{
+          width: 481px;
         }
       }
 
@@ -482,7 +621,8 @@
     .cards{
       &--card{
         &__one{
-          height: 239px;
+          width: 574px;
+          height: 287px;
         }
         &__text{
           h1{
