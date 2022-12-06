@@ -642,5 +642,60 @@
     margin-left: 14%;
   }
 }
+@media (max-width: 470px) {
+  #client .client--nav {
+    flex-wrap: wrap;
+    width: 84%;
+  }
+  #about .about--nav p {
+    width: 410px;
+  }
+  #about .about--blocks {
+    margin-left: -4%;
+  }
+  #hero .hero--icon {
+    margin: 66% -67px;
+  }
+  #hero .hero--liner {
+    left: -14%;
+  }
+  #cards .cards--card__one {
+    width: 100%;
+  }
+  #cards .cards--card__text h1 {
+    font-size: 11px;
+  }
+  #cards .cards--two__img {
+    width: 100%;
+  }
+  #cards .cards--three__img {
+    width: 100%;
+  }
+  #cards .cards--four__img {
+    width: 100%;
+  }
+  #cards .cards--five__img {
+    width: 100%;
+  }
+  #general {
+    width: 100%;
+  }
+  #general .general {
+    margin: 10% 2%;
+  }
+  #partner .partner--img {
+    height: 248px;
+    width: 436px;
+  }
+  #partner .partner--nav img {
+    width: 73px;
+  }
+  #footer .footer {
+    width: 55%;
+  }
+  #footer .footer--info__text--end {
+    margin-left: 12%;
+  }
+}
 
 /*# sourceMappingURL=media.css.map */

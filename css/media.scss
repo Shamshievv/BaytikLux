@@ -1081,3 +1081,110 @@
   }
 
 }
+@media (max-width: 470px) {
+  #client{
+    .client{
+      &--nav{
+        flex-wrap: wrap;
+        width: 84%;
+      }
+    }
+
+  }
+  #about{
+    .about{
+      &--nav{
+        p{
+          width: 410px;
+        }
+      }
+      &--blocks{
+        margin-left: -4%;
+      }
+    }
+  }
+  #hero{
+    .hero{
+      &--icon{
+        margin: 66% -67px;
+      }
+      &--liner{
+        left: -14%;
+      }
+    }
+  }
+  #cards{
+    .cards{
+      &--card{
+        &__one{
+          width: 100%;
+        }
+        &__text{
+          h1{
+            font-size: 11px;
+          }
+        }
+
+      }
+      &--two{
+        &__img{
+          width: 100%;
+
+        }
+      }
+      &--three{
+        &__img{
+          width: 100%;
+
+        }
+      }
+      &--four{
+        &__img{
+          width: 100%;
+
+        }
+      }
+      &--five{
+        &__img{
+          width: 100%;
+
+        }
+      }
+
+    }
+  }
+  #general{
+    width: 100%;
+    .general{
+      margin: 10% 2%;
+    }
+  }
+  #partner{
+    .partner{
+      &--img{
+        height: 248px;
+        width: 436px;
+      }
+      &--nav{
+        img{
+          width: 73px;
+
+        }
+        }
+      }
+    }
+  #footer{
+    .footer{
+      width: 55%;
+      &--info{
+        &__text{
+          &--end{
+            margin-left: 12%;
+          }
+        }
+      }
+    }
+  }
+  }
+
+
