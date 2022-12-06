@@ -470,6 +470,13 @@
           text-align: center;
         }
       }
+      &--info{
+        &__text{
+          p{
+            font-size: 14px
+          }
+        }
+      }
     }
   }
 
@@ -823,8 +830,15 @@
   }
   #about{
     .about{
+      &--nav{
+        p{
+          width: 348px;
+
+        }
+
+      }
       &--blocks{
-        width: 354px;
+        width: 342px;
         p{
           font-size: 11px;
         }
@@ -847,7 +861,18 @@
   #footer{
     .footer{
       width: 68%;
+      &--info{
+        &__text{
+          p{
+            font-size: 12px;
+          }
+          &--end{
+            margin-left: 5%;
+          }
+        }
+      }
     }
+
   }
 
 }
@@ -871,11 +896,12 @@
     .about{
       &--nav{
         p{
+          width: 283px;
 
         }
       }
       &--blocks{
-        width: 284px;
+        width: 277px;
         p{
           font-size: 9px;
         }

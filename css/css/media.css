@@ -293,6 +293,9 @@
   #footer .footer--nav p {
     text-align: center;
   }
+  #footer .footer--info__text p {
+    font-size: 14px;
+  }
 }
 @media (max-width: 576px) {
   #cards .cards--card__one {
@@ -492,8 +495,11 @@
   #client .client--nav__text {
     margin: 5px 3px;
   }
+  #about .about--nav p {
+    width: 348px;
+  }
   #about .about--blocks {
-    width: 354px;
+    width: 342px;
   }
   #about .about--blocks p {
     font-size: 11px;
@@ -504,6 +510,12 @@
   #footer .footer {
     width: 68%;
   }
+  #footer .footer--info__text p {
+    font-size: 12px;
+  }
+  #footer .footer--info__text--end {
+    margin-left: 5%;
+  }
 }
 @media (max-width: 320px) {
   #general .general--blocks__img {
@@ -512,8 +524,11 @@
   #general .general--blocks__block input {
     width: 228px;
   }
+  #about .about--nav p {
+    width: 283px;
+  }
   #about .about--blocks {
-    width: 284px;
+    width: 277px;
   }
   #about .about--blocks p {
     font-size: 9px;
